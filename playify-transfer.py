@@ -54,6 +54,12 @@ def receiveWS(c, s, msg):
 							"error": True,
 							"track": track
 						}))
+			else:
+				server.send_message_to_all(json.dumps({
+					"q": "auth",
+					"error": True,
+					"google": True
+				}))
 		
 		elif data["q"] == "get_playlists":
 			api = Mobileclient(False)	
@@ -69,6 +75,12 @@ def receiveWS(c, s, msg):
 				server.send_message_to_all(json.dumps({
 					"q": "playlists",
 					"lists": array
+				}))
+			else:
+				server.send_message_to_all(json.dumps({
+					"q": "auth",
+					"error": True,
+					"google": True
 				}))
 		
 		else:
