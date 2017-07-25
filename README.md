@@ -36,3 +36,8 @@ will return an array of objects with playlist names and ids.
 }
 ```
 `new_playlist` can be true or false; if false, `playlist` must contain a playlist id.
+
+### Donate
+
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VRGZY3DW4UALC"><img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" align="right"></a>
+If you're feeling generous, I would really appreciate a small donation to keep the extension in development! Thank you! <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VRGZY3DW4UALC">Donate with PayPal</a>
