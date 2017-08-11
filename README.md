@@ -2,6 +2,11 @@
 Transfers Spotify playlists to Google Play Music. It is an addition to Playify.
 
 ## Setup
+### Before you start...
+You need to allow "less secure apps" to access your account. You can enable this in your [account settings](https://myaccount.google.com/lesssecureapps).
+
+If you have two-factor authentication enabled (which you should!), you need to create a password for "less secure apps". Go to the [App Passwords](https://myaccount.google.com/apppasswords) on your account settings. Click on "Select apps", choose "Other" and name it something you like - Playify would sound nice. It will output a new password you will need to use with Playify (your email stays the same).
+
 ### Windows (pre-built)
 Download the [latest release (standalone version)](https://github.com/krmax44/playify-transfer/releases/latest) and unzip it. Firstly, open `password.exe` and set a password. **Without setting a password, the Transfer app will not start.** You will need the password later. Then open `playify-transfer.exe`.
 
@@ -27,7 +32,7 @@ $ python playify-transfer.py
 
 Transfer should now be running and you can start moving playlists in Playify.
 
-**This setup needs only to be done once.** When using Transfer again, just type `python playify-transfer.py`.
+**This setup needs only to be done once.** When using Transfer again, just type `python playify-transfer.py`. 
 
 ## API documentation
 
